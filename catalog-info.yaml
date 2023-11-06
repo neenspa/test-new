@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-new
+  description: create-vm-vpshere
+  annotations:
+    backstage.io/kubernetes-id: test-new
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/test-new
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
